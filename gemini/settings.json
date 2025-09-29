@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "everything": {
+      "httpUrl": "http://localhost:3001/mcp"
+    },
+    "mcp-server-fetch": {
+      "command": ["mcp-server-fetch"]
+    },
+    "@modelcontextprotocol/server-filesystem": {
+      "command": ["mcp-server-filesystem", "."]
+    },
+    "mcp-server-git": {
+      "command": ["mcp-server-git", "-r", "."]
+    },
+    "@modelcontextprotocol/server-memory": {
+      "command": ["mcp-server-memory"]
+    },
+    "@modelcontextprotocol/server-sequential-thinking": {
+      "command": ["mcp-server-sequential-thinking"]
+    },
+    "mcp-server-time": {
+      "command": ["mcp-server-time"]
+    }
+  }
+}
